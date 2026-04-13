@@ -28,13 +28,12 @@ void playerMove(int playerChoice) {
     }
 
     else if (playerChoice == 2) { 
-        int cardSelect; 
+        int playingCardDecision; 
         cout << "What card would you like to play? Select 0 to view available cards, or select 1, 2 or 3 to play that card." << "\n"; 
-        cin >> cardSelect; 
-        switch (cardSelect) {
-            case 0: 
-                for (auto card : playerCards)
-        }
+        cin >> playingCardDecision; 
+        while (playingCardDecision == 0) { 
+
+        };
 
     }
 }
